@@ -28,4 +28,11 @@ module.exports = gql`
   input LinkInput {
     type: String!
     url: String!
+  }
+
+  type Query {
+    getUser(id: ID!): User
+    listUsers: [User!]
+    searchUsersBySkill(skillName: String!): [User!]
+    getUserByName(name: String!): User
   }`
