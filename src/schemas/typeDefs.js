@@ -35,4 +35,14 @@ module.exports = gql`
     listUsers: [User!]
     searchUsersBySkill(skillName: String!): [User!]
     getUserByName(name: String!): User
-  }`
+  }
+    
+   type Mutation {
+    createUser(name: String!, email: String!, bio: String, skills: [SkillInput], links: [LinkInput]): User!
+    updateUser(id: ID!, name: String, email: String, bio: String): User!
+    deleteUser(id: ID!): Boolean!
+    addSkill(userId: ID!, skill: SkillInput!): User!
+    deleteSkill(userId: ID!, skillName: String!): User!
+    addLink(userId: ID!, link: LinkInput!): User!
+    deleteLink(userId: ID!, url: String!): User!
+  }`;
