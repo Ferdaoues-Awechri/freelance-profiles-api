@@ -7,9 +7,9 @@ module.exports = {
     searchUsersBySkill: async (_, { skillName }) =>
       await User.find({ 'skills.name': skillName }),
     getUserByName: async (_, { name }) =>
-      await User.find({ name: { $regex: name, $options: 'i' } }),
+      await User.findOne({ name: { $regex: name, $options: 'i' } }),
   },
-
+  
   Mutation: {
     createUser: async (_, { name, email, bio, skills, links }) =>
       await User.create({ name, email, bio, skills: skills || [], links: links || [] }),
