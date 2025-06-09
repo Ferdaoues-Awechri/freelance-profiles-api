@@ -1,10 +1,10 @@
-Freelance Profiles API
-📘 Overview
+Freelance Profiles API 
+📘 Overview:
 A GraphQL-based API for managing freelancer profiles, built with Express, Apollo Server, and MongoDB.
 It supports creating, updating, deleting, and querying user profiles with associated skills and professional links.
 
-🧰 Git & Installation
-📥 Clone the Repository
+🧰 Git & Installation=
+📥 Clone the Repository:
 bash
 Copier
 Modifier
@@ -32,8 +32,8 @@ nodemon server.js
 Access the GraphQL Playground at:
 http://localhost:4000/graphql
 
-📌 Example Queries
-✅ Create a User
+📌 Example Queries=
+✅ Create a User:
 graphql
 Copier
 Modifier
@@ -44,7 +44,7 @@ mutation {
     email
   }
 }
-✅ Add a Skill
+✅ Add a Skill:
 graphql
 Copier
 Modifier
@@ -57,7 +57,7 @@ mutation {
     }
   }
 }
-📦 Dependencies
+📦 Dependencies:
 apollo-server-express – GraphQL server integration with Express
 
 express – Web framework
@@ -70,7 +70,7 @@ graphql – GraphQL implementation
 
 nodemon – Auto-restarts the server during development (dev dependency)
 
-📝 Notes
+📝 Notes:
 Make sure MongoDB is running and accessible.
 
 Recommended: Use Node.js v20 LTS to avoid deprecation warnings (e.g., punycode).
