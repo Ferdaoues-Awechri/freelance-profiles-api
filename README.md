@@ -1,4 +1,4 @@
-🧑‍💼 Freelance Profiles API:
+<h1>🧑‍💼 Freelance Profiles API:</h1>
 Une API GraphQL puissante pour la gestion des profils freelances, construite avec Express, Apollo Server et MongoDB.
 Elle permet la création, la mise à jour, la suppression et la consultation de profils utilisateurs, incluant leurs compétences et liens professionnels.
 
