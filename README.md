@@ -2,7 +2,7 @@
 Une API GraphQL puissante pour la gestion des profils freelances, construite avec Express, Apollo Server et MongoDB.
 Elle permet la création, la mise à jour, la suppression et la consultation de profils utilisateurs, incluant leurs compétences et liens professionnels.
 
-📦 Stack technique:
+<h2>📦 Stack technique:</h2>
 Node.js (v20 LTS recommandé)
 
 Express – Framework web
@@ -19,7 +19,7 @@ dotenv – Gestion des variables d’environnement
 
 nodemon (dev) – Redémarrage automatique du serveur en développement
 
-🚀 Installation & Lancement:
+<h2>🚀 Installation & Lancement:</h2>
 
 1. Cloner le dépôt
 git clone https://github.com/Ferdaoues-Awechri/freelance-profiles-api.git
@@ -41,7 +41,7 @@ nodemon server.js
 ➡ Accéder à GraphQL Playground :
 http://localhost:4000/graphql
 
-📌 Exemples de Requêtes GraphQL:
+<h2>📌 Exemples de Requêtes GraphQL:</h2>
 
 ✅ Créer un utilisateur:
 mutation {
