@@ -3,7 +3,7 @@ Une API GraphQL puissante pour la gestion des profils freelances, construite ave
 Elle permet la création, la mise à jour, la suppression et la consultation de profils utilisateurs, incluant leurs compétences et liens professionnels.
 
 <h2>📦 Stack technique:</h2>
-Node.js (v20 LTS recommandé)
+Node.js
 
 Express – Framework web
 
